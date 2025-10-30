@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoFence</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">GeoFence Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="logging_in">Logging in...</string>
+
+    <!-- Main Screen -->
+    <string name="clock_in">Clock In</string>
+    <string name="clock_out">Clock Out</string>
+    <string name="refresh">Refresh</string>
+    <string name="logout">Logout</string>
+    <string name="current_status">Current Status</string>
+    <string name="recent_events">Recent Events (Last 7 Days)</string>
+    <string name="geofence_status">Geofence Status</string>
+    <string name="location_status">Location Status</string>
+    <string name="inside_geofence">Inside Geofence</string>
+    <string name="outside_geofence">Outside Geofence</string>
+    <string name="distance_format">Distance: %.1f meters</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale">Location permission is required for geofencing</string>
+    <string name="permission_denied">Location permission denied</string>
+
+    <!-- Errors -->
+    <string name="error_generic">An error occurred</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_loading">Loading...</string>
+
+    <!-- Success Messages -->
+    <string name="clock_in_success">Clocked in successfully</string>
+    <string name="clock_out_success">Clocked out successfully</string>
+    <string name="geofence_registered">Geofence registered successfully</string>
+
+    <!-- Geofence Notifications -->
+    <string name="geofence_enter_title">Entered Work Area</string>
+    <string name="geofence_enter_message">You have entered the geofence area</string>
+    <string name="geofence_exit_title">Left Work Area</string>
+    <string name="geofence_exit_message">You have left the geofence area</string>
+</resources>
